@@ -1,0 +1,41 @@
+users:
+  10e5696d-2d6b-4c9e-8519-2eccbede450f:
+    lastname: Treeweezel
+    group: Initiate
+    subgroups: []
+    permissions: []
+  5bf71883-8512-4577-8604-f84dedb87936:
+    lastname: Maxthestealthy
+    group: Member
+    subgroups: []
+    permissions: []
+  6bec31c0-bdd9-41be-a756-f9457177938e:
+    lastname: NandabaNaota
+    group: Member
+    subgroups: []
+    permissions: []
+  754b0443-c483-4364-a57a-c9443320e544:
+    lastname: PeaAyeTee
+    group: Member
+    subgroups: []
+    permissions: []
+  7d46a657-8aab-42a4-834c-3e4e2caac59e:
+    lastname: DJ_Webster
+    group: Member
+    subgroups: []
+    permissions: []
+  7e4140e7-a986-41ca-afd7-93165bb445eb:
+    lastname: iAmor
+    group: Initiate
+    subgroups: []
+    permissions: []
+  c407cfe5-e59b-4fc6-b477-9cc58cb5ecfa:
+    lastname: Some_Rando_Boi
+    group: Member
+    subgroups: []
+    permissions: []
+  d5a0fc65-9528-4043-a756-b9016c47ce30:
+    lastname: Sabien1
+    group: ModeratorAdmin
+    subgroups: []
+    permissions: []

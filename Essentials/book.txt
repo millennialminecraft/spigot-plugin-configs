@@ -1,0 +1,14 @@
+#manual
+Welcome!  Here's some basic commands to get started!
+
+Use /kits to view kits of tools you can use.  To claim a kit, type /kit [kit name].
+
+Explore the spawn zone. There is a portal to different biomes to explore and start your settlement, or you can choose to leave the spawn area and start in the wilderness.
+
+As you play on the server, your rank will increase over time.
+
+Members can create a faction and claim land.  Claimed land can not be destroyed by other players (except from explosions). Anyone can join another faction.  Use /f help to learn about faction commands.
+
+Any questions? Join our Discord: https://discord.gg/qRNKejg
+
+Please remember to follow the rules. Type /rules for details. Have fun!

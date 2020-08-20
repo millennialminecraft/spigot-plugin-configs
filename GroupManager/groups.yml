@@ -1,0 +1,164 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+
+  Owner:
+    default: false
+    permissions:
+    - factions.*
+    - +vanish.effects.toggle.all
+    - -vanish.effects.*
+    - '*'
+    inheritance:
+    - admin
+    - g:aa_admin
+    info:
+      build: true
+      prefix: ''
+      suffix: ''
+
+  Admin:
+    default: false
+    permissions: []
+    inheritance:
+    - moderatoradmin
+    - g:spartan_admin
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:vanish_admin
+    - g:gates_admin
+    - g:auction_admin
+    - g:autorank_admin
+    - g:doors_admin
+    - g:brew_admin
+    - g:dc_admin
+    - g:shop_admin
+    - g:spartan_admin
+    - g:we_admin
+    - g:factions_admin
+    info:
+      build: true
+      prefix: ''
+      suffix: ''
+
+#The moderatoradmin role is for admins to use while playing normally
+#Admins should play without their admin commands
+#Only promote to admin when business needs to be taken care of.
+
+  ModeratorAdmin:
+    default: false
+    permissions:
+    - groupmanager.op
+    inheritance:
+    - moderator
+    info:
+      build: true
+      prefix: ''
+      suffix: ''
+
+#Editor role should only be for players to use world edit that
+#we don't wait to give admin priv (should generally not be used)
+
+  Moderator:
+    default: false
+    permissions: []
+    inheritance:
+    - editor
+    - g:spartan_mod
+    - g:groupmanager_moderator
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:vanish_moderator
+    - g:brew_mod
+    info:
+      build: true
+      prefix: ''
+      suffix: ''
+
+  Editor:
+    default: false
+    permissions: []
+    inheritance:
+    - g:we_admin
+    - elite
+    info:
+      build: false
+      prefix: ''
+      suffix: ''
+
+  Elite:
+    default: false
+    permissions:
+    - essentials.kits.pvp
+    inheritance:
+    - member
+    info:
+      build: true
+      prefix: ''
+      suffix: ''
+
+  Member:
+    default: false
+    permissions:
+    - essentials.kits.Dtools
+    inheritance:
+    - initiate
+    - g:essentials_builder
+    - g:doors_member
+    - g:spartan_member
+    - g:factions_member
+    info:
+      build: true
+      prefix: ''
+      suffix: ''
+
+  Initiate:
+    default: false
+    permissions:
+    - essentials.kit
+    - essentials.kits.tools
+    - essentials.kits.beta-tester
+    - essentials.warps.pvp
+    inheritance:
+    - newbie
+    - g:shop_member
+    - g:auction_initiate
+    - g:factions_initiate
+    - g:factions_initiate
+    info:
+      build: true
+      prefix: ''
+      suffix: ''
+
+  Newbie:
+    default: true
+    permissions:
+    - -bukkit.command.kill
+    - -essentials.warps.pvp
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:spartan_default
+    - g:gates_default
+    - g:auction_default
+    - g:autorank_default
+    - g:doors_default
+    - g:brew_default
+    - g:dc_default
+    - g:shop_default
+    - g:factions_default
+    - g:aa_default
+    info:
+      build: false
+      prefix: ''
+      suffix: ''

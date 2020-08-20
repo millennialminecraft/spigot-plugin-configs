@@ -1,0 +1,118 @@
+{
+  "enabled": true,
+  "rarity": 1.0,
+  "useDungeons": false,
+  "dungeonChance": 0,
+  "useMineShafts": false,
+  "useStrongholds": false,
+  "useVillages": false,
+  "villageStyle": "PLAINS",
+  "useTemples": false,
+  "useNetherFortress": false,
+  "useCaves": false,
+  "useMonuments": false,
+  "useWoodlandMansion": false,
+  "useRavines": false,
+  "useWitchHuts": false,
+  "usePyramids": false,
+  "useJungleTemples": false,
+  "useIgloos": false,
+  "useFossils": false,
+  "useWaterLakes": false,
+  "useLavaLakes": false,
+  "useBedrock": false,
+  "useRivers": false,
+  "useNativePainting": false,
+  "useNativeStructure": false,
+  "useNativeDecorations": false,
+  "biomeColors": [
+    "#1E1E1E"
+  ],
+  "fossilChance": 0,
+  "lavaLakeChance": 0,
+  "waterLakeChance": 0,
+  "vanillaFeatures": [],
+  "oreGenerators": [],
+  "customTerrain": {
+    "noiseLayers": []
+  },
+  "terrainSettings": {
+    "subTerrains": [
+      {
+        "provider": "EWG",
+        "name": "Plains",
+        "xModifier": 1.0,
+        "yModifier": 1.0,
+        "zModifier": 1.0,
+        "yOffset": -5
+      }
+    ]
+  },
+  "overlaySettings": {
+    "spawnLilyPads": false,
+    "fastLeavesPlacing": false,
+    "spawnCactus": false,
+    "spawnSnowLayers": false,
+    "spawnHangingLeaves": false,
+    "spawnIceOnWater": false,
+    "groundDepth": 255,
+    "surfaceDepth": 255,
+    "surfaceBlocks": [],
+    "oceanBlocks": [],
+    "groundBlocks": [],
+    "beachBlocks": [],
+    "pathBlocks": [],
+    "farmlandBlocks": [],
+    "slabBlocks": [],
+    "stairBlocks": [],
+    "plantBlocks": [],
+    "riverBlocks": [],
+    "leavesBlock": {
+      "type": "AIR",
+      "data": 0,
+      "tags": {},
+      "chance": 0.0
+    }
+  },
+  "customTrees": [],
+  "customStructures": [],
+  "maxEWGObjectsPerChunk": 4,
+  "xNoiseModifier": 1.2,
+  "yNoiseModifier": 0.7,
+  "zNoiseModifier": 1.2,
+  "lakeDepth": 0.0,
+  "baseHeight": 0,
+  "nativeBiomes": [
+    {
+      "nativeBiome": "THE_END",
+      "chance": 1.0
+    }
+  ],
+  "groundBlockSettings": {
+    "layers": [
+      {
+        "maxAmplitude": 10,
+        "minAmplitude": 5,
+        "xScale": 30,
+        "zScale": 30,
+        "minWidth": 0,
+        "maxWidth": 5,
+        "groundMaterials": [
+          {
+            "material": "AIR",
+            "data": 0,
+            "chance": 1.0
+          }
+        ]
+      }
+    ],
+    "repeat": true
+  },
+  "groundMaterials": [
+    {
+      "material": "AIR",
+      "data": 0,
+      "chance": 1.0
+    }
+  ]
+}

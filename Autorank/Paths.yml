@@ -1,0 +1,87 @@
+# Paths file - This file will contain all paths that a player is allowed to take. Previously known as 'AdvancedConfig.yml'.
+# This file contains (by default) a Test group that shows the basic syntax of this file. 
+# For more information, go to https://github.com/Armarr/Autorank-2/wiki/How-to-configure-the-Paths.yml-file%3F.
+#Test:
+#  prerequisites:
+#    world:
+#      value: world_nether
+#    money:
+#      value: 1000
+#  requirements:
+#    money:
+#      value: 10000
+#    blocks broken:
+#      value: 50
+#  results:
+#    command:
+#      value: broadcast &p has just completed path 'Default'!
+#    command2:
+#      value: give &p 1 100
+#    command3:
+#      value: 'pex user &p group set Default'
+#    message:
+#      value: Congratulations, you completed the 'Default' path!
+#  options:
+#    display name: Test path
+
+Initiate:
+  prerequisites:
+    world:
+      value: world
+  requirements:
+    mobs killed:
+      value: 10;zombie
+    time:
+      value: 2h
+  results:
+    command:
+      value: manpromote &p Initiate
+    message:
+      value: You've been promoted to Initiate!  Keep playing on the server to reach new access levels.
+  options:
+    display name: Initiate
+    is repeatable: false
+
+Member:
+  prerequisites:
+    world:
+      value: world
+    in group:
+      value: Initiate
+  requirements:
+    time: 
+      value: 8h
+  results:
+    command:
+      value: manpromote &p Member
+    message:
+      value: Thank you for your dedication! You now have access to new kits! Check with /kits
+    command2:
+      value: eco give &p 2000
+  options:
+    display name: Member
+    is repeatable: false
+
+Elite:
+  prerequisites:
+    world:
+      value: world
+    in group:
+      value: Member
+    players killed:
+      value: 50
+    time:
+      value: 48h
+  results:
+    command:
+      value: manpromote &p Caporegime
+    message:
+      value: You have access to new kits.  Check with /kits!
+    command2:
+      value: eco give &p 5000
+    command3:
+      value: broadcast &p has achieved 50 player kills and has accumulated 48 hours of played time! They're now an Elite member!
+  options:
+    display name: Elite
+    is repeatable: false
+

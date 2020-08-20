@@ -1,0 +1,63 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
+# {PLAYER} will show the player's displayname instead of username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  tools:
+    delay: 60
+    items:
+      - stonesword 1 vanishing_curse:1
+      - stoneshovel 1 vanishing_curse:1
+      - stonepickaxe 1 vanishing_curse:1
+      - stoneaxe 1 vanishing_curse:1
+      - cooked_beef 1
+  dtools:
+    delay: 86400
+    items:
+      - dsword 1 knockback:2 vanishing_curse:1
+      - dpickaxe 1 efficiency:1 durability:1 fortune:1 vanishing_curse:1
+      - dshovel 1 digspeed:3 vanishing_curse:1
+      - daxe 1
+  pvp:
+    delay: 86400
+    items:
+      - ironsword 1 knockback:2 vanishing_curse:1
+      - ironhelmet 1 vanishing_curse:1
+      - ironchestplate 1 vanishing_curse:1
+      - ironleggings 1 vanishing_curse:1
+      - ironboots 1 vanishing_curse:1
+      - shield 1 vanishing_curse:1
+      - bow 1 vanishing_curse:1
+      - arrow 32
+      - cooked_beef 4
+
+  manual:
+    delay: 10
+    items:
+      - writtenbook 1 title:&6New_Player_Guide author:Sabien1 book:manual
+
+#  beta-tester:
+#    delay: -1
+#    items:
+#      - obsidian 64
+#      - cooked_beef 32
+#      - glowstone 16
+#      - diamond_axe 1 efficiency:2 unbreaking:2
+#      - diamond_pickaxe 1 efficiency:2 unbreaking:2
+#      - diamond_shovel 1
+#      - diamond_sword 1 knockback:2 sharpness:3 sweeping_edge:2 unbreaking:2
+#      - diamond_helmet 1 protection:2
+#      - diamond_chestplate 1 protection:2
+#      - diamond_boots 1 protection:2
+#      - diamond_leggings 1 protection:2
+#      - bed 1
+#      - cobblestone 64
+#      - diamond 16

@@ -1,0 +1,1329 @@
+manualPermissions:
+  essentials:
+    bigtree:
+    - essentials.bigtree=Allow access to the /bigtree command.
+    break:
+    - essentials.break=Allows access to the /break command.
+    - essentials.break.bedrock=Allows the breaking of bedrock.
+    enchant:
+    - essentials.enchant=Allows access to the /enchant command.
+    - essentials.enchantments.[enchantmentname]=Allows access to each enchantment
+      type.
+    - essentials.enchantments.allowunsafe=If enabled in the config, this permission
+      allows unsafe enchantments.
+    exp:
+    - essentials.exp=Allow access to the /exp command.
+    - essentials.exp.give=Allows players to give themselves exp.
+    - essentials.exp.give.others=Allows players to give others exp (if they also have
+      essentials.exp.give).
+    - essentials.exp.others=Allows players to see another players exp.
+    - essentials.exp.set=Allows players to set their own exp.
+    - essentials.exp.set.others=Allows players to change others exp (if they also
+      have essentials.exp.set).
+    feed:
+    - essentials.feed=Allows access to the /feed command.
+    - essentials.feed.cooldown.bypass=Bypass the feed cooldown
+    - essentials.feed.others=Allows a player to feed another player.
+    firework:
+    - essentials.firework=Allow access to the /firework command.
+    - essentials.firework.fire=Allows a user to 'spawn' a copy of the firework held
+      in their hands.
+    - essentials.firework.multiple=Allows to spawn multiple firework effects at once.
+    fly:
+    - essentials.fly=Allow access to the /fly command.
+    - essentials.fly.others=Allows you to toggle fly for other players.
+    - essentials.fly.safelogin=Players with this command will automatically switch
+      to fly mode if they login whilst floating in the air.
+    gamemode:
+    - essentials.gamemode=Allow access to the /gamemode command.
+    - essentials.gamemode.all=Allow access to all the gamemodes in the /gamemode command.
+    - essentials.gamemode.creative=Allow access to the /gamemode creative command.
+      Also requires essentials.gamemode. (EssentialsX only)
+    - essentials.gamemode.survival=Allow access to the /gamemode survival command.
+      Also requires essentials.gamemode. (EssentialsX only)
+    - essentials.gamemode.adventure=Allow access to the /gamemode adventure command.
+      Also requires essentials.gamemode. (EssentialsX only)
+    - essentials.gamemode.spectator=Allow access to the /gamemode spectator command.
+      Also requires essentials.gamemode. (EssentialsX only)
+    - essentials.gamemode.others=Allows you to change the gamemode of other players.
+    give:
+    - essentials.itemspawn.meta-chapter-[chapter]=Allows spawning of specific books
+      only, from book.txt.
+    - essentials.enchantments.[enchantmentname]=Allows access to each enchantment
+      type.
+    - essentials.enchantments.allowunsafe=If enabled in the config, this permission
+      allows unsafe enchantments.
+    - essentials.give=Allow access to the /give command.
+    - essentials.itemspawn.exempt=Allows spawning of items on the spawn blacklist.
+    - essentials.itemspawn.item-<itemname>=If permission-based-item-spawn - Spawn
+      <itemname>. In EssentialsX, usage is essentials.itemspawn.item-<;itemname>;
+    - essentials.itemspawn.item-[itemid]=If permission-based-item-spawn - Spawn [itemid]
+    - essentials.itemspawn.item-all=If permission-based-item-spawn - Spawn all items
+    - essentials.itemspawn.meta-author=Allow 'author' meta to be used in item spawning.
+    - essentials.itemspawn.meta-book=Allows spawning of books with pre-filled content
+      from books.txt
+    - essentials.itemspawn.meta-firework=Allow specific meta for fireworks.
+    - essentials.itemspawn.meta-head=Allows spawning of mob heads.
+    - essentials.itemspawn.meta-lore=Allow 'lore' meta to be used in item spawning.
+    - essentials.itemspawn.meta-title=Allow 'title' meta to be used in item spawning.
+    - essentials.oversizedstacks=Allows spawning of stacks above normal max stack
+      size
+    god:
+    - essentials.god=Allow access to the /god command.
+    - essentials.god.others=Allows you to god other players
+    - essentials.god.pvp=Allows you to attack other players while in god mode.
+    hat:
+    - essentials.hat=Allow access to the /hat command.
+    heal:
+    - essentials.heal=Allow access to the /heal command.
+    - essentials.heal.cooldown.bypass=Bypass the heal cooldown
+    - essentials.heal.others=Allows healing another player
+    item:
+    - essentials.itemspawn.meta-chapter-[chapter]=Allows spawning of specific books
+      only, from book.txt
+    - essentials.enchantments.[enchantmentname]=Allows access to each enchantment
+      type.
+    - essentials.enchantments.allowunsafe=If enabled in the config, this permission
+      allows unsafe enchantments.
+    - essentials.item=Allow access to the /item command.
+    - essentials.itemspawn.exempt=Allows spawning of items on the spawn blacklist.
+    - essentials.itemspawn.item-[itemid]=If permission-based-item-spawn - Spawn [itemid]
+    - essentials.itemspawn.item-[itemname]=If permission-based-item-spawn - Spawn
+      [itemname]
+    - essentials.itemspawn.item-all=If permission-based-item-spawn - Spawn all items.
+    - essentials.itemspawn.meta-author=Allow 'author' meta to be used in item spawning.
+    - essentials.itemspawn.meta-book=Allows spawning of books with pre-filled content
+      from books.txt
+    - essentials.itemspawn.meta-firework=Allow specific meta for fireworks.
+    - essentials.itemspawn.meta-head=Allows spawning of mob heads.
+    - essentials.itemspawn.meta-lore=Allow 'lore' meta to be used in item spawning.
+    - essentials.itemspawn.meta-title=Allow 'title' meta to be used in item spawning.
+    - essentials.oversizedstacks=Allows spawning of stacks above normal max stack
+      size
+    kit:
+    - essentials.kit=Allow access to the /kit command.
+    - essentials.kit.exemptdelay=Exempts you from the kit delay feature, this affects
+      signs as well as command.
+    - essentials.kit.others=Allows spawning of kits on other players.
+    - essentials.kits.*=Allows access to all created kits
+    - essentials.kits.[kitname]=Give access to a single kit, where [kitname] is the
+      name of an existing kit.
+    kittycannon:
+    - essentials.kittycannon=Allow access to the /kittycannon command. (EssentialsX
+      only)
+    more:
+    - essentials.more=Allows access to the /more command.
+    - essentials.oversizedstacks=Allows spawning of oversized stacks.
+    ptime:
+    - essentials.ptime=Allow access to the /ptime command.
+    - essentials.ptime.others=Allows you to change the time of another online player.
+    pweather:
+    - essentials.pweather=Allow access to the /pweather command. (EssentialsX only)
+    - essentials.pweather.others=Allow to change the pweather of someone else. (EssentialsX
+      only)
+    repair:
+    - essentials.repair=Allow access to the /repair command.
+    - essentials.repair.all=Unlock the /repair all ability
+    - essentials.repair.armor=Repair all also repairs equipped armor.
+    - essentials.repair.enchanted=Repairing of enchanted items.
+    skull:
+    - essentials.skull=Allow access to the /skull command.
+    - essentials.skull.modify=Allow changing the owner of an existing player skull.
+    - essentials.skull.others=Allow creating skulls belonging to other players.
+    - essentials.skull.spawn=Allows the spawning of a skull, default if the player
+      isn't holding a skull.
+    speed:
+    - essentials.speed=Allow access to the /speed command.
+    - essentials.speed.bypass=Allows you to bypass the speed limits set in the config.yml
+    - essentials.speed.fly=This permission will allow a player to change fly speed
+      only.
+    - essentials.speed.others=Allows you to modify the speed of other players.
+    - essentials.speed.walk=This permission will allow a player to change walk speed
+      only.
+    time:
+    - essentials.time=Allow access to the /time command.
+    - essentials.time.set=User is allowed to change the time of the world.
+    - essentials.time.world.all=Allow changing time of all worlds. (EssentialsX only)
+    - essentials.sleepingignored=User isn't required to be sleeping, for time to be
+      reset.
+    tree:
+    - essentials.tree=Allow access to the /tree command.
+    unlimited:
+    - essentials.unlimited=Allow access to the /unlimited command.
+    - essentials.unlimited.item-[itemid]=Allows the player to recieve an unlimited
+      stack of [itemid]
+    - essentials.unlimited.item-[itemname]=Allows the player to recieve an unlimited
+      stack of [itemname]
+    - essentials.unlimited.item-all=Allows the player to recieve an unlimited stack
+      of any item.
+    - essentials.unlimited.item-bucket=Allows the player to recieve an unlimited use
+      of empty/lava/water buckets.
+    - essentials.unlimited.others=Allows the player to gift/remove another player
+      with an unlimited stack.
+    workbench:
+    - essentials.workbench=Allow access to the /workbench command.
+    balance:
+    - essentials.balance=Allow access to the /balance command.
+    - essentials.balance.others=Allows you to see the balance of other players
+    balancetop:
+    - essentials.balancetop=Allow access to the /balancetop command.
+    - essentials.balancetop.force=Allow a forced refresh of balancetop with "/balancetop
+      force". (EssentialsX only)
+    eco:
+    - essentials.eco=Allow access to the /eco command.
+    - essentials.eco.loan=Allows the player to have a negative balance.
+    pay:
+    - essentials.pay=Allow access to the /pay command.
+    - essentials.pay.multiple=This allows you to pay multiple users in a single command.
+    payconfirmtoggle:
+    - essentials.payconfirmtoggle=Allow access to the /payconfirmtoggle command. (EssentialsX
+      only)
+    paytoggle:
+    - essentials.paytoggle=Allow access to the /paytoggle command. (EssentialsX only)
+    sell:
+    - essentials.sell=Allow access to the /sell command.
+    - essentials.sell.bulk=Allow bulk selling of items. (EssentialsX only)
+    - essentials.sell.hand=Allow selling of items from your hand. (EssentialsX only)
+    setworth:
+    - essentials.setworth=Allow access to the /setworth command.
+    worth:
+    - essentials.worth=Allow access to the /worth command.
+    afk:
+    - essentials.afk=Allow access to the /afk command.
+    - essentials.afk.auto=Players with this permission will be set to afk after a
+      period of inaction as defined in the config file.
+    - essentials.afk.kickexempt=Exempts the user from being auto kicked for AFK
+    - essentials.afk.others=Allows you to AFK other players.
+    - essentials.afk.message=Allow access to settings an afk message. (EssentialsX
+      only)
+    book:
+    - essentials.book=Allow access to the /book command.
+    - essentials.book.author=Allows the user to change the author of a book.
+    - essentials.book.others=Allow editing a book belonging to another player.
+    - essentials.book.title=Allows the user to change the title of a written book
+    compass:
+    - essentials.compass=Allow access to the /compass command.
+    condense:
+    - essentials.condense=Allow access to the /condense command. (EssentialsX only)
+    customtext:
+    - essentials.customtext=Allow access to the /customtext command and all aliases.
+    depth:
+    - essentials.depth=Allow access to the /depth command.
+    disposal:
+    - essentials.disposal=Allow access to the /disposal command. (EssentialsX only)
+    getpos:
+    - essentials.getpos=Allow access to the /getpos command.
+    - essentials.getpos.others=Allow user to get the position of another player.
+    help:
+    - essentials.help=Allow access to the /help command.
+    - essentials.help.[pluginname]=Manually adds the commands from a plugin to this
+      group's /help. Name is all lowercase.
+    - essentials.help.[pluginname].[command]=Manually adds a command from a plugin
+      to this group's /help. Name is all lowercase.
+    helpop:
+    - essentials.helpop=Allow access to the /helpop command.
+    - essentials.helpop.receive=Allows you to see Helpop messages
+    ignore:
+    - essentials.chat.ignoreexempt=Someone with this permission will not be ignored,
+      even if they are on another persons ignore list.
+    - essentials.ignore=Allow access to the /ignore command.
+    info:
+    - essentials.info=Allow access to the /info command.
+    itemdb:
+    - essentials.itemdb=Allows access to the /itemdb command.
+    list:
+    - essentials.list=Allow access to the /list command.
+    - essentials.list.hidden=Show hidden users
+    mail:
+    - essentials.mail=Allow access to the /mail command.
+    - essentials.mail.send=Send mail
+    - essentials.mail.sendall=Allows sending mail to all players at the same time
+    me:
+    - essentials.me=Allow access to the /me command.
+    - essentials.chat.spy=A permission designed for admins, to intercept all local
+      messages (ignoring the chat-radius). (EssentialsX only)
+    motd:
+    - essentials.motd=User sees MOTD on connect, and can use the command.
+    msg:
+    - essentials.msg=Allow access to the /msg command.
+    - essentials.msg.color=This allows you to color your private messages using color
+      codes. (Essentials only, no EssentialsX)
+    - essentials.msg.format=This allows you to format your private messages using
+      format codes. (Essentials only, no EssentialsX)
+    - essentials.msg.magic=This allows you to use the matrix/magic color in your private
+      messages. (Essentials only, no EssentialsX)
+    - essentials.msg.multiple=This allows you to message multiple users in a single
+      command.
+    - essentials.msg.url=This allows you to use urls in your private messages. (Essentials
+      only, no EssentialsX)
+    near:
+    - essentials.near=Allow access to the /near command.
+    - essentials.near.maxexempt=Allows bypassing the radius limit.
+    - essentials.near.others=Allows using the near command on another player.
+    nick:
+    - essentials.nick=Allow access to the /nick command.
+    - essentials.nick.changecolors=Allow to only change your nickname's colors. (EssentialsX
+      only)
+    - essentials.nick.changecolors.bypass=Allows to bypass checking if only nickname
+      colors were changed, thus also allowing to change letters. (EssentialsX only)
+    - essentials.nick.color=This allows you to color your nickname using color codes.
+      (Essentials only, no EssentialsX)
+    - essentials.nick.format=This allows you to format your nickname using format
+      codes. (Essentials only, no EssentialsX)
+    - essentials.nick.magic=This allows you to use the matrix/magic color in your
+      nickname. (Essentials only, no EssentialsX)
+    - essentials.nick.others=Gives you permission to give other players a nick name.
+    - essentials.nick.allowunsafe=If a player has this, they can set their username
+      to any value. Use with caution, as this has the potential to break userdata
+      files. (EssentialsX only)
+    powertool:
+    - essentials.powertool=Allow access to the /powertool command.
+    - essentials.powertool.append=Allows adding multiple commands to a single powertool.
+    powertooltoggle:
+    - essentials.powertooltoggle=Allow access to the /powertooltoggle command.
+    r:
+    - essentials.msg=Allow access to the /msg command.
+    - essentials.msg.color=This allows you to color your private messages using color
+      codes. (Essentials only, no EssentialsX)
+    - essentials.msg.format=This allows you to format your private messages using
+      format codes. (Essentials only, no EssentialsX)
+    - essentials.msg.magic=This allows you to use the matrix/magic color in your private
+      messages. (Essentials only, no EssentialsX)
+    - essentials.msg.url=This allows you to use urls in your private messages. (Essentials
+      only, no EssentialsX)
+    realname:
+    - essentials.realname=Allow access to the /realname command.
+    recipe:
+    - essentials.recipe=Allow access to the /recipe command.
+    rules:
+    - essentials.rules=Allow access to the /rules command.
+    seen:
+    - essentials.seen=Allow access to the /seen command.
+    - essentials.seen.banreason=Allows the user to see why a user is banned.
+    - essentials.seen.extra=Allow to see someone's ip-address and location in /seen.
+      (Essentials only, no EssentialsX)
+    - essentials.seen.ip=Allow to see someone's ip-address in /seen. (EssentialsX
+      only)
+    - essentials.seen.ipsearch=Allows the user to search IPs for username matches.
+    spawner:
+    - essentials.spawner=Allow access to the /spawner command.
+    - essentials.spawner.*=Allows the spawning of all mobs
+    - essentials.spawner.[mob]=Allows access to spawn a specific mob
+    suicide:
+    - essentials.suicide=Allow access to the /suicide command.
+    whois:
+    - essentials.geoip.show=Shows the GeoIP location of a player, if the GeoIP module
+      is installed.
+    - essentials.whois=Allow access to the /whois command.
+    - essentials.whois.ip=Allow seeing someones ip address in the /whois command.
+      (EssentialsX only)
+    antioch:
+    - essentials.antioch=Allow access to the /antioch command.
+    backup:
+    - essentials.backup=Allow access to the /backup command.
+    ban:
+    - essentials.ban=Allow access to the /ban command.
+    - essentials.ban.exempt=Prevents a specified group or player from being banned
+    - essentials.ban.notify=Players with this permission will receive a notification
+      when a ban is set.
+    - essentials.ban.offline=Allows banning of players who are offline. This may allow
+      you to ban exempt players.
+    banip:
+    - essentials.ban.notify=Players with this permission will receive a notification
+      when an IP ban is set.
+    - essentials.banip=Allow access to the /banip command.
+    broadcast:
+    - essentials.broadcast=Allow access to the /broadcast command.
+    broadcastworld:
+    - essentials.broadcastworld=Allow access to the /broadcastworld command. (EssentialsX
+      only)
+    burn:
+    - essentials.burn=Allow access to the /burn command.
+    clearinventory:
+    - essentials.clearinventory=Allow access to the /clearinventory command.
+    - essentials.clearinventory.all=Allows a player to clear all players inventories.
+    - essentials.clearinventory.others=Allows you to clear other player's inventory
+    - essentials.clearinventory.multiple=Allow clearing inventory of multiple people
+      at once. (EssentialsX only)
+    clearinventoryconfirmtoggle:
+    - essentials.clearinventoryconfirmtoggle=Allow access to the /clearinventoryconfirmtoggle
+      command. (EssentialsX only)
+    deljail:
+    - essentials.deljail=Allow access to the /deljail command.
+    enderchest:
+    - essentials.enderchest=Allow access to the /enderchest command.
+    - essentials.enderchest.modify=Allows you to modify the contents of another players
+      enderchest.
+    - essentials.enderchest.others=Allows you to see the contents of another players
+      enderchest.
+    essentials:
+    - essentials.essentials=Allow access to the /essentials command.
+    - essentials.version=Allow access to the "/essentials version" command. (EssentialsX
+      only)
+    - essentials.commandcooldowns.bypass=Allow to bypass command cooldowns.
+    - essentials.joinfullserver=Player can join when the server is full.
+    - essentials.silentjoin=Allow to join silently.
+    - essentials.silentquit=Suppress leave/quit messages for users with this permission.
+    - essentials.nocommandcost.all=Removes the command cost of all commands.
+    - essentials.nocommandcost.[command]=Removes the command cost of a given command.
+    - essentials.pvpdelay.exempt=Exempts players from the 'pvp delay' option in the
+      config file.
+    ext:
+    - essentials.ext=Allow access to the /ext command.
+    fireball:
+    - essentials.fireball=Allow access to the /fireball command.
+    gc:
+    - essentials.gc=Allow access to the /gc command.
+    invsee:
+    - essentials.invsee=Allow access to the /invsee command.
+    - essentials.invsee.modify=Players can modify the other players inventory (remove/add
+      items).
+    - essentials.invsee.preventmodify=Prevents other players from modifying the players
+      inventory.
+    - essentials.invsee.equip=Allow access to see someones equiped armor slots in
+      "/invsee <name> [armor]". (EssentialsX only)
+    jails:
+    - essentials.jails=Allow access to the /jails command.
+    kick:
+    - essentials.kick=Allow access to the /kick command.
+    - essentials.kick.exempt=Prevents the player from being kicked.
+    - essentials.kick.notify=User sees a notification when a user is kicked.
+    kickall:
+    - essentials.kickall=Allow access to the /kickall command.
+    - essentials.kickall.exempt=Be exempt from the /kickall command. (EssentialsX
+      only)
+    kill:
+    - essentials.kill=Allow access to the /kill command.
+    - essentials.kill.exempt=Prevents the player from being killed.
+    - essentials.kill.force=Force player death, even if event is cancelled.
+    lightning:
+    - essentials.lightning=Allow access to the /lightning command.
+    - essentials.lightning.others=Allows use of /lightning [playername]
+    mute:
+    - essentials.mute=Allow access to the /mute command.
+    - essentials.mute.exempt=Prevents a specified group or player from being muted
+    - essentials.mute.notify=Players with this permission will receive a notification
+      when a player is muted. (Essentials only, no EssentialsX)
+    - essentials.mute.offline=Allows muting of players who are offline. This may allow
+      you to mute exempt players.
+    nuke:
+    - essentials.nuke=Allow access to the /nuke command.
+    ping:
+    - essentials.ping=Allow access to the /ping command.
+    potion:
+    - essentials.potion.[potionName]=Allow access to the "/potion [potionName]" command.
+      (EssentialsX only)
+    - essentials.potion.apply=Allow access to the "/potion apply" command. (EssentialsX
+      only)s
+    remove:
+    - essentials.remove=Allow access to the /remove command.
+    setjail:
+    - essentials.setjail=Allow access to the /setjail command.
+    socialspy:
+    - essentials.socialspy=Allow access to the /socialspy command.
+    - essentials.socialspy.others=Allows you to toggle the social spy status of others.
+    - essentials.chat.spy.exempt=Allow to be exempt from chat spy.
+    spawnmob:
+    - essentials.spawnmob=Allow access to the /spawnmob command.
+    - essentials.spawnmob.*=Allow the spawning of all mobs
+    - essentials.spawnmob.[mob]=Allow access to spawn a specific mob
+    - essentials.spawnmob.stack=Allows the spawning of stacked mobs.
+    sudo:
+    - essentials.sudo=Allow access to the /sudo command.
+    - essentials.sudo.exempt=Prevents the holder from being sudo'ed by another user.
+    - essentials.sudo.multiple=Allow access to the /sudo command for multiple people.
+      (EssentialsX only)
+    tempban:
+    - essentials.ban.notify=Players with this permission will receive a notification
+      when a ban is set.
+    - essentials.tempban=Allow access to the /tempban command.
+    - essentials.tempban.exempt=Prevents a specified group or player from being tempbanned
+    - essentials.tempban.offline=Allows temp-banning of players who are offline. This
+      may allow you to ban exempt players.
+    - essentials.tempban.unlimited=Allows bypassing config file max ban time limit.
+    thunder:
+    - essentials.thunder=Allow access to the /thunder command.
+    togglejail:
+    - essentials.jail.allow.<command>=Allows essentials commands to be used while
+      jailed (requires regular perm). EssentialsX usage essentials.jail.allow.<;command>;
+    - essentials.jail.exempt=Prevents a specified group or player from being jailed
+    - essentials.togglejail=Allow access to the /togglejail command.
+    - essentials.togglejail.offline=Allows jailing of players who are offline. This
+      may allow you to jail exempt players.
+    unban:
+    - essentials.ban.notify=Players with this permission will receive a notification
+      when a ban is removed.
+    - essentials.unban=Allow access to the /unban command.
+    unbanip:
+    - essentials.ban.notify=Players with this permission will receive a notification
+      when an IP ban is removed.
+    - essentials.unbanip=Allow access to the /unbanip command.
+    vanish:
+    - essentials.vanish=Allow access to the /vanish command.
+    - essentials.vanish.effect=People with this effect will get the potion effect
+      applied while vanished.
+    - essentials.vanish.interact=Allows the player to use commands which interact
+      with a vanished player.
+    - essentials.vanish.others=Allows you to toggle vanish on others
+    - essentials.vanish.pvp=Allows players who are vanished to attack other players.
+    - essentials.vanish.see=Allows you to see a vanished player.
+    - essentials.silentjoin.vanish=Allow to join silently, and get put in vanish mode.
+    weather:
+    - essentials.weather=Allow access to the /weather command.
+    setspawn:
+    - essentials.setspawn=Allow access to the /setspawn command.
+    spawn:
+    - essentials.spawn=Allow access to the /spawn command.
+    - essentials.spawn.others=Allows you to teleport other people to spawn
+    back:
+    - essentials.back=Allow access to the /back command.
+    - essentials.back.ondeath=Give this permission to allow players to use /back to
+      go to their death spot
+    - essentials.keepxp=Allows the user to keep their exp on death, instead of dropping
+      it.
+    - essentials.worlds.<worldname>=Allows players access to a specific world(s).
+      In EssentialsX, the usage is essentials.worlds.<;worldname>;
+    - essentials.back.into.<;worldname>;=Allows access to /back when the destination
+      location is within the specified world. (EssentialsX only)
+    - essentials.teleport.cooldown.bypass.back=Allow to bypass the /back command cooldown.
+      (EssentialsX only)
+    delhome:
+    - essentials.delhome=Allow access to the /delhome command.
+    - essentials.delhome.others=Allows you to delete the homes of other players.
+    delwarp:
+    - essentials.delwarp=Allow access to the /delwarp command.
+    home:
+    - essentials.home=Allow access to the /home command.
+    - essentials.home.bed=Allow access to the vanilla bed home.
+    - essentials.home.others=Allows you to teleport to homes of other players
+    - essentials.worlds.<worldname>=Allows players access to a specific world. In
+      EssentialsX, usage is essentials.worlds.<;worldname>;
+    - essentials.home.compass=Point the player's compass at their first home. compass-towards-home-perm
+      needs to be enabled in the configuration. (EssentialsX only)
+    jump:
+    - essentials.jump=Allow access to the /jump command.
+    - essentials.jump.lock=Allow access to the "/jump lock" command. (EssentialsX
+      only)
+    sethome:
+    - essentials.sethome=Allow access to the /sethome command.
+    - essentials.sethome.bed=Allows the player to right click a bed during daytime
+      to update their 'bed' home.
+    - essentials.sethome.multiple=Allows player to have multiple homes, or create
+      named homes. Required for 2+ homes. (Essentials only, no EssentialsX)
+    - essentials.sethome.multiple.[set name]=Raise the multiple home limit to a setting
+      defined in the config file.
+    - essentials.sethome.multiple.unlimited=Removes the cap on the number of homes
+      people are allowed (if they have multiple homes).
+    - essentials.sethome.others=Allows you to change another users home location
+    setwarp:
+    - essentials.setwarp=Allow access to the /setwarp command.
+    - essentials.warp.overwrite.*=Allows overwriting of all existing warps.
+    - essentials.warp.overwrite.[warpname]=Allows overwriting of existing warps.
+    top:
+    - essentials.top=Allow access to the /top command.
+    tp:
+    - essentials.tp=Allow access to the /tp command.
+    - essentials.worlds.<worldname>=Allows players access to a specific world. EssentialsX
+      usage essentials.worlds.<;worldname>;
+    - essentials.tp.position=Allow to teleport to an exact location. (EssentialsX
+      only)
+    tpa:
+    - essentials.tpa=Allow access to the /tpa command.
+    - essentials.worlds.<worldname>=Allows players access to a specific world. EssentialsX
+      usage essentials.worlds.<;worldname>;
+    - essentials.teleport.cooldown.bypass.tpa=Allow to bypass the /tpa command cooldown.
+    tpaall:
+    - essentials.tpaall=Allow access to the /tpaall command.
+    - essentials.worlds.<worldname>=Allows teleporting player to a specific world.
+      EssentialsX usage essentials.worlds.<;worldname>;
+    tpacancel:
+    - essentials.tpacancel=Allow access to the /tpacancel command. (EssentialsX only)
+    tpaccept:
+    - essentials.tpaccept=Allow access to the /tpaccept command.
+    tpahere:
+    - essentials.tpahere=Allow access to the /tpahere command.
+    - essentials.worlds.<worldname>=Allows teleporting player to a specific world.
+      EssentialsX usage essentials.worlds.<;worldname>;
+    tpall:
+    - essentials.tpall=Allow access to the /tpall command.
+    - essentials.worlds.<worldname>=Allows teleporting player to a specific world.
+      EssentialsX usage essentials.worlds.<;worldname>;
+    tpauto:
+    - essentials.tpauto.others=Allow using /tpauto for other players. (EssentialsX
+      only)
+    tpdeny:
+    - essentials.tpdeny=Allow access to the /tpdeny command.
+    tphere:
+    - essentials.tphere=Allow access to the /tphere command.
+    - essentials.worlds.<worldname>=Allows teleporting player to a specific world.
+      EssentialsX usage essentials.worlds.<;worldname>;
+    tpo:
+    - essentials.tpo=Allow access to the /tpo command.
+    - essentials.tp.others=Allow players to teleport another player.
+    - essentials.worlds.<worldname>=Allows teleporting player to a specific world.
+      EssentialsX usage essentials.worlds.<;worldname>;
+    tpohere:
+    - essentials.tpohere=Allow access to the /tpohere command.
+    - essentials.worlds.<worldname>=Allows teleporting player to a specific world.
+      EssentialsX usage essentials.worlds.<;worldname>;
+    tppos:
+    - essentials.tppos=Allow access to the /tppos command.
+    tptoggle:
+    - essentials.teleport.cooldown.bypass=Bypass the teleport cooldown. (Essentials
+      only, no EssentialsX)
+    - essentials.teleport.timer.bypass=Bypass the teleport delay.
+    - essentials.teleport.timer.move=Allows players to move while waiting for teleport.
+    - essentials.tptoggle=Allow access to the /tptoggle command.
+    - essentials.tptoggle.others=Allows a player to toggle the teleport status of
+      another player.
+    warp:
+    - essentials.warp=Allow access to the /warp command.
+    - essentials.warp.list=Specifies whether you can view warp list with /warp.
+    - essentials.warp.otherplayers=Allows warping another player.
+    - essentials.warps.*=Allows access to all warps.
+    - essentials.warps.[warpname]=If you have per-warp-permission set to true in the
+      config.yml then you can limit what warps players can use. This also controls
+      what players would see with /warp.
+    world:
+    - essentials.world=Allow access to the /world command.
+    - essentials.worlds.<worldname>=Allows players access to a specific world. EssentialsX
+      usage essentials.worlds.<;worldname>;
+    setxmpp:
+    - essentials.setxmpp=Allow access to the /setxmpp command.
+    xmpp:
+    - essentials.xmpp=Allow access to the /xmpp command.
+    xmppspy:
+    - essentials.xmppspy=Allow access to the /xmppspy command.
+    createkit:
+    - essentials.createkit=Allow access to the /createkit command.
+    msgtoggle:
+    - esentials.msgtoggle=Allows people with this permission to ignore all private
+      messages.
+    - essentials.msgtoggle.others=Allow executing the /msgtoggle command for someone
+      else. (EssentialsX only)
+    - essentials.msgtoggle.bypass=This permission allows you to send private messages
+      to users that have disabled them with /msgtoggle. (EssentialsX only)
+    showkit:
+    - essentials.showkit=Shows a list of kit contents straight from config file.
+  multiverse-core:
+    mvl:
+    - multiverse.core.list.worlds=Displays a listing of all worlds that you can enter.
+    mvlist:
+    - multiverse.core.list.worlds=Displays a listing of all worlds that you can enter.
+    mv:
+    - multiverse.help=Displays the Multiverse help pages.
+    mvh:
+    - multiverse.help=Displays the Multiverse help pages.
+    mvhelp:
+    - multiverse.help=Displays the Multiverse help pages.
+    mvsearch:
+    - multiverse.help=Displays the Multiverse help pages.
+    mvi:
+    - multiverse.core.info=Displays information about the world you're in or the world
+      you pass in.
+    mvinfo:
+    - multiverse.core.info=Displays information about the world you're in or the world
+      you pass in.
+    mvc:
+    - multiverse.core.create=Creates a new world and loads it.
+    mvcreate:
+    - multiverse.core.create=Creates a new world and loads it.
+    mvim:
+    - multiverse.core.import=Imports an existing world folder.
+    mvimport:
+    - multiverse.core.import=Imports an existing world folder.
+    mvr:
+    - multiverse.core.reload=Reloads worlds.yml and config.yml
+    mvreload:
+    - multiverse.core.reload=Reloads worlds.yml and config.yml
+    mvss:
+    - multiverse.core.spawn.set=Sets the respawn point for the current world.
+    mvsetspawn:
+    - multiverse.core.spawn.set=Sets the respawn point for the current world.
+    mvcoord:
+    - multiverse.core.coord=Displays your current coordinates.
+    mvco:
+    - multiverse.core.coord=Displays your current coordinates.
+    mvtp:
+    - multiverse.teleport.self.NAME=Allows you to teleport to a different world.
+    - multiverse.teleport.other.NAME=Allows you to teleport another player to a different
+      world.
+    mvw:
+    - multiverse.core.list.who=Displays who is in which world(s).
+    mvwho:
+    - multiverse.core.list.who=Displays who is in which world(s).
+    mvs:
+    - multiverse.core.spawn.self=Teleports you to the spawn.
+    - multiverse.core.spawn.other=Teleports another player to the spawn.
+    mvspawn:
+    - multiverse.core.spawn.self=Teleports you to the spawn.
+    - multiverse.core.spawn.other=Teleports another player to the spawn.
+    mvset:
+    - multiverse.core.spawn.self=Teleports you to the spawn.
+    - multiverse.core.spawn.other=Teleports another player to the spawn.
+    mvunload:
+    - multiverse.core.unload=Unloads a world from the Bukkit server.
+    mvremove:
+    - multiverse.core.remove=Unloads a world from the Bukkit server and removes it
+      from the MV configs.
+    mvdelete:
+    - multiverse.core.delete=Unloads a world from the Bukkit server, removes it from
+      the MV configs AND DELETES the world folder.
+    mvconfirm:
+    - multiverse.core.confirm=Confirms an action that could destroy the life, the
+      universe and everything.
+    mvpurge:
+    - multiverse.core.purge=Removes the specified entities from the specified worlds.
+    mvmodify:
+    - multiverse.core.modify=Modifies a world's variable
+    mvm:
+    - multiverse.core.modify=Modifies a world's variable
+    mvmset:
+    - multiverse.core.modify=Modifies a world's variable
+    mvmadd:
+    - multiverse.core.modify=Adds a value to a world's property
+    mvmremove:
+    - multiverse.core.modify=Removes a value from a world's property
+    mvmclear:
+    - multiverse.core.modify=Clears all values from a list property
+    mvgamerule:
+    - multiverse.core.gamerule.set=Sets a Minecraft game rule for a world.
+    mvrule:
+    - multiverse.core.gamerule.set=Sets a Minecraft game rule for a world.
+    mvenv:
+    - multiverse.core.list.environments=Displays the valid environments.
+  holographicdisplays:
+    holograms:
+    - holograms.<subCommandName>=Individual permissions for each command
+    - holograms.update=Receive update notifications on join
+  coreprotect:
+    coreprotect:
+    - coreprotect.inspect=Allows access to the CoreProtect inspect command.
+    - coreprotect.lookup=Allows access to the CoreProtect lookup command.
+    - coreprotect.rollback=Allows access to the CoreProtect rollback command.
+    - coreprotect.restore=Allows access to the CoreProtect restore command.
+    - coreprotect.purge=Allows access to the CoreProtect purge command.
+    - coreprotect.reload=Allows access to the CoreProtect reload command.
+    - coreprotect.help=Allows access to the CoreProtect help command.
+    - coreprotect.lookup.block=Can be optionally used as a negative permission to
+      prevent block lookups.
+    - coreprotect.lookup.click=Can be optionally used as a negative permission to
+      prevent interaction lookups.
+    - coreprotect.lookup.container=Can be optionally used as a negative permission
+      to prevent container lookups.
+    - coreprotect.lookup.kill=Can be optionally used as a negative permission to prevent
+      entity kill lookups.
+    - coreprotect.lookup.chat=Can be optionally used as a negative permission to prevent
+      chat lookups.
+    - coreprotect.lookup.command=Can be optionally used as a negative permission to
+      prevent command lookups.
+    - coreprotect.lookup.session=Can be optionally used as a negative permission to
+      prevent session lookups.
+    core:
+    - coreprotect.inspect=Allows access to the CoreProtect inspect command.
+    - coreprotect.lookup=Allows access to the CoreProtect lookup command.
+    - coreprotect.rollback=Allows access to the CoreProtect rollback command.
+    - coreprotect.restore=Allows access to the CoreProtect restore command.
+    - coreprotect.purge=Allows access to the CoreProtect purge command.
+    - coreprotect.reload=Allows access to the CoreProtect reload command.
+    - coreprotect.help=Allows access to the CoreProtect help command.
+    - coreprotect.lookup.block=Can be optionally used as a negative permission to
+      prevent block lookups.
+    - coreprotect.lookup.click=Can be optionally used as a negative permission to
+      prevent interaction lookups.
+    - coreprotect.lookup.container=Can be optionally used as a negative permission
+      to prevent container lookups.
+    - coreprotect.lookup.kill=Can be optionally used as a negative permission to prevent
+      entity kill lookups.
+    - coreprotect.lookup.chat=Can be optionally used as a negative permission to prevent
+      chat lookups.
+    - coreprotect.lookup.command=Can be optionally used as a negative permission to
+      prevent command lookups.
+    - coreprotect.lookup.session=Can be optionally used as a negative permission to
+      prevent session lookups.
+    co:
+    - coreprotect.inspect=Allows access to the CoreProtect inspect command.
+    - coreprotect.lookup=Allows access to the CoreProtect lookup command.
+    - coreprotect.rollback=Allows access to the CoreProtect rollback command.
+    - coreprotect.restore=Allows access to the CoreProtect restore command.
+    - coreprotect.purge=Allows access to the CoreProtect purge command.
+    - coreprotect.reload=Allows access to the CoreProtect reload command.
+    - coreprotect.help=Allows access to the CoreProtect help command.
+    - coreprotect.lookup.block=Can be optionally used as a negative permission to
+      prevent block lookups.
+    - coreprotect.lookup.click=Can be optionally used as a negative permission to
+      prevent interaction lookups.
+    - coreprotect.lookup.container=Can be optionally used as a negative permission
+      to prevent container lookups.
+    - coreprotect.lookup.kill=Can be optionally used as a negative permission to prevent
+      entity kill lookups.
+    - coreprotect.lookup.chat=Can be optionally used as a negative permission to prevent
+      chat lookups.
+    - coreprotect.lookup.command=Can be optionally used as a negative permission to
+      prevent command lookups.
+    - coreprotect.lookup.session=Can be optionally used as a negative permission to
+      prevent session lookups.
+  massivecore:
+    massivecore:
+    - massivecore.basecommand=use the MassiveCore base command
+    - massivecore.test=run developer test
+    - massivecore.id=see the server id
+    - massivecore.version=diplay plugin version
+    - massivecore.hearsound=hear a sound
+    - massivecore.notpdelay=teleport without delay
+    - massivecore.variable.book=replace ***book*** with content of book in your hand
+    - massivecore.variable.buffer=replace ***buffer*** with content of your buffer
+    mcore:
+    - massivecore.basecommand=use the MassiveCore base command
+    - massivecore.test=run developer test
+    - massivecore.id=see the server id
+    - massivecore.version=diplay plugin version
+    - massivecore.hearsound=hear a sound
+    - massivecore.notpdelay=teleport without delay
+    - massivecore.variable.book=replace ***book*** with content of book in your hand
+    - massivecore.variable.buffer=replace ***buffer*** with content of your buffer
+    mstore:
+    - massivecore.store=use the mstore command
+    - massivecore.store.stats=show mstore statistics
+    - massivecore.store.listcolls=list collections in a database
+    - massivecore.store.copydb=copy database content
+    massivestore:
+    - massivecore.store=use the mstore command
+    - massivecore.store.stats=show mstore statistics
+    - massivecore.store.listcolls=list collections in a database
+    - massivecore.store.copydb=copy database content
+    usys:
+    - massivecore.usys=manage multiverses
+    - massivecore.usys.multiverse.list=list multiverses
+    - massivecore.usys.multiverse.show=show multiverse
+    - massivecore.usys.multiverse.new=create new multiverse
+    - massivecore.usys.multiverse.del=delete multiverse
+    - massivecore.usys.universe=manage universes
+    - massivecore.usys.universe.new=create new universe in multiverse
+    - massivecore.usys.universe.del=delete universe in multiverse
+    - massivecore.usys.universe.clear=clear universe in multiverse
+    - massivecore.usys.world=set a worlds universe in a multiverse
+    - massivecore.usys.aspect=manage aspects
+    - massivecore.usys.aspect.list=list aspects
+    - massivecore.usys.aspect.show=show aspect
+    - massivecore.usys.aspect.use=set multiverse for aspect
+    buffer:
+    - massivecore.buffer=use the buffer command
+    - massivecore.buffer.print=print buffer
+    - massivecore.buffer.clear=clear buffer
+    - massivecore.buffer.set=set buffer
+    - massivecore.buffer.add=add to buffer
+    - massivecore.buffer.whitespace=add whitespace to buffer
+    cmdurl:
+    - massivecore.cmdurl=run all lines of url content
+    f:
+    - factions.access=manage access, with the proper fperm
+    - factions.access.faction=grant faction access, with the proper fperm
+    - factions.access.player=grant player access, with the proper fperm
+    - factions.access.view=view access
+    - factions.admin=enable adminmode
+    - factions.create=create new faction
+    - factions.demote=demote lesser members in your faction
+    - factions.description=change faction description
+    - factions.disband=disband faction
+    - factions.expansions=list expansions
+    - factions.faction=show faction information
+    - factions.flag=manage faction flags
+    - factions.home=teleport to faction home
+    - factions.invite=set if player is invited
+    - factions.join=join faction
+    - factions.join.any=join closed faction
+    - factions.join.others=have another player join faction
+    - factions.kick=kick player from faction
+    - factions.leader=set leader for faction
+    - factions.leader.any=set leader for another faction
+    - factions.leave=leave your faction
+    - factions.list=list all factions
+    - factions.map=show territory map
+    - factions.money=manage faction money
+    - factions.money.balance=show faction money
+    - factions.money.balance.any=show another factions money
+    - factions.money.deposit=deposit to faction
+    - factions.money.f2f=transfer f --> f
+    - factions.money.f2p=transfer f --> p
+    - factions.money.p2f=transfer p --> f
+    - factions.money.withdraw=withdraw from faction
+    - factions.motd=faction motd
+    - factions.officer=make player officer
+    - factions.officer.any=set officers for another faction
+    - factions.open=set if invitation is required to join
+    - factions.perm=change faction permissions
+    - factions.player=show player information
+    - factions.powerboost=set powerboost
+    - factions.promote=promote lesser members in your faction
+    - factions.relation=set relation wish to another faction
+    - factions.seechunk=see the chunk you stand in
+    - factions.seechunkold=see the chunk you stand in
+    - factions.set=set faction territory
+    - factions.set.one=set faction for a single chunk
+    - factions.set.auto=set faction as you walk around
+    - factions.set.fill=set faction by filling
+    - factions.set.square=set faction by square and radius
+    - factions.set.circle=set faction by circle and radius
+    - factions.set.transfer=set faction by transfer
+    - factions.sethome=set the faction home
+    - factions.name=set faction name
+    - factions.title=set player title
+    - factions.title.color=set player title with color
+    - factions.unsethome=unset faction home
+    - factions.version=see plugin version
+  chestshop:
+    csversion:
+    - ChestShop.shop.create.*=create all types of shops
+    - ChestShop.shop.buy=buy any item from shop
+    - ChestShop.shop.sell=sell any item to shop
+    - ChestShop.mod=open any shop chest, destroy stores
+    - ChestShop.admin=open any shop chest, destroy stores, create admin shops
+  chestcommands:
+    chestcommands:
+    - chestcommands.command.help=List of commands.
+    - chestcommands.command.reload=Reloads the plugin.
+    - chestcommands.command.open=Open any menu loaded by the plugin directly. You
+      also need the permissions for the menu itself.
+    - chestcommands.command.open.others=Opens a menu for another player. It will give
+      you access to all the menus.
+    - chestcommands.command.list=List of correctly loaded menus.
+    - chestcommands.update=Receive update notifications on join.
+    - chestcommands.open.filename.yml=Required to open a menu with the configured
+      command, or from other menus.
+    - chestcommands.economy.bypass=Bypass economy costs.
+    - chestcommands.sign=Required to create menu signs.
+  lwc:
+    lwc:
+    - lwc.protect=The main permission node that should be given to players. This permission
+      node is also effectively the same as the following permission nodes combined
+      - lwc.create.* lwc.modify lwc.unlock lwc.info lwc.remove lwc.flag.*
+    - lwc.create.*=Create own protections
+    - lwc.modify=Setting non-Admin flags and modes
+    - lwc.unlock=Unlock password-protected chests
+    - lwc.info=Viewing the owner of any protection
+    - lwc.remove=Remove own protections
+    - lwc.flag.*=Setting non-Admin flags and modes
+    - lwc.deny=Prevents players with this node from interacting with anything LWC
+      can protect.
+    - lwc.mod=Allows the player to open any LWC protection, but does not give them
+      destructive powers such as being able to remove a protection or access to /lwc
+      admin
+    - lwc.admin=Gives the player absolute access to LWC. It gives them destructive
+      powers along with the ability to view and remove any protection at will. The
+      player can essentially delete every protection if they are not careful with
+      one command. They also have access to any command under /lwc admin
+    - lwc.shownotices=Shows protection notices to the player. This is mainly useful
+      for administrative roles so that you know that a chest you opened is protected
+      by LWC and who it is protected by.
+  mcmmo:
+    ptp:
+    - mcmmo.commands.ptp=Teleport to a party member.
+    party:
+    - mcmmo.commands.party=Manage your party.
+    partychat:
+    - mcmmo.chat.partychat=Toggle Party chat or send party chat messages.
+    adminchat:
+    - mcmmo.chat.adminchat=Toggle admin chat or send a message in admin chat.
+    mcrefresh:
+    - mcmmo.commands.mcrefresh=Refresh your cooldowns for mcMMO
+    - mcmmo.commands.mcrefresh.others=Refresh cooldowns for mcMMO of other players
+    mcgod:
+    - mcmmo.commands.mcgod=Toggle mcMMO god-mode on/off for yourself
+    - mcmmo.commands.mcgod.others=Toggle mcMMO god-mode on/off for others
+    xprate:
+    - mcmmo.commands.xprate.all=Modify the xp rate or start an event for everyone.
+    - mcmmo.commands.xprate=Modify the xp rate or start an event for you.
+    - mcmmo.commands.xprate.reset=Reset the xp rate
+    - mcmmo.commands.xprate.set=Modify the xp rate
+    mmoedit:
+    - mcmmo.commands.mmoedit=Edit the mcMMO skill values for yourself.
+    - mcmmo.commands.mmoedit.others=Edit the mcMMO skill values for a user.
+    addxp:
+    - mcmmo.commands.addxp=Add mcMMO XP to a yourself.
+    - mcmmo.commands.addxp.others=Add mcMMO XP to a user.
+    addlevels:
+    - mcmmo.commands.addlevels=Add mcMMO levels to a yourself.
+    - mcmmo.commands.addlevels.others=Add mcMMO levels to a user.
+    mcremove:
+    - mcmmo.commands.mcremove=Remove a user from the database.
+    skillreset:
+    - mcmmo.commands.skillreset=Reset the level of one or all of your skills.
+    - mcmmo.commands.skillreset.acrobatics=Reset the level of your acrobatics skill.
+    - mcmmo.commands.skillreset.archery=Reset the level of your archery skill.
+    - mcmmo.commands.skillreset.axes=Reset the level of your axes skill.
+    - mcmmo.commands.skillreset.excavation=Reset the level of your excavation skill.
+    - mcmmo.commands.skillreset.fishing=Reset the level of your fishing skill.
+    - mcmmo.commands.skillreset.herbalism=Reset the level of your herbalism skill.
+    - mcmmo.commands.skillreset.mining=Reset the level of your mining skill.
+    - mcmmo.commands.skillreset.others.all=Reset the level of one or all of other
+      player's skills.
+    - mcmmo.commands.skillreset.repair=Reset the level of your repair skill.
+    - mcmmo.commands.skillreset.smelting=Reset the level of your smelting skill.
+    - mcmmo.commands.skillreset.swords=Reset the level of your swords skill.
+    - mcmmo.commands.skillreset.taming=Reset the level of your taming skill.
+    - mcmmo.commands.skillreset.unarmed=Reset the level of your unarmed skill.
+    - mcmmo.commands.skillreset.woodcutting=Reset the level of your woodcutting skill.
+    mcpurge:
+    - mcmmo.commands.mcpurge=Purge users with 0 powerlevel and/or who haven't connected
+      in several months from the server DB.
+    mcconvert:
+    - mcmmo.commands.mcconvert=Convert between different database and formula types.
+    mcimport:
+    - mcmmo.commands.mcimport=Automagically generate mod config files, ready to be
+      filled in.
+  plugman:
+    plugman:
+    - plugman.admin=Allow use of all PlugMan commands.
+    - plugman.update=Allow user to see update messages.
+    - plugman.help=Allow use of the help command.
+    - plugman.list=Allow use of the list command.
+    - plugman.info=Allow use of the info command.
+    - plugman.dump=Allow use of the dump command.
+    - plugman.usage=Allow use of the usage command.
+    - plugman.enable=Allow use of the enable command.
+    - plugman.enable.all=Allow use of the enable all command.
+    - plugman.disable=Allow use of the disable command.
+    - plugman.disable.all=Allow use of the disable all command.
+    - plugman.restart=Allow use of the restart command.
+    - plugman.restart.all=Allow use of the restart all command.
+    - plugman.load=Allow use of the load command.
+    - plugman.reload=Allow use of the reload command.
+    - plugman.reload.all=Allow use of the reload all command.
+    - plugman.unload=Allow use of the unload command.
+    - plugman.check=Allow use of the check command.
+    - plugman.check.all=Allow use of the check all comamnd.
+  pluginmanager:
+    pluginmanager:
+    - pluginmanager.commands=Allows use of all commands of PluginManager.
+    - pluginmanager.commands.list=Allows use of the list command to list all plugins
+      on your server.
+    - pluginmanager.commands.info=Allows use of the info command to show detailed
+      information about any of your plugins (from their plugin.yml file).
+    - pluginmanager.commands.enable=Allows use of the enable command to enable a plugin.
+    - pluginmanager.commands.disable=Allows use of the disable command to disable
+      a plugin.
+    - pluginmanager.commands.restart=Allows restarting of a plugin on your server.
+    - pluginmanager.commands.load=Allows loading of a plugin on your server.
+    - pluginmanager.commands.unload=Allows unloading of a plugin on your server.
+    - pluginmanager.commands.reload=Allows reloading of a plugin on your server.
+    - pluginmanager.commands.commands=Allows use of the commands command to list all
+      commands of a plugin on your server.
+    - pluginmanager.commands.find=Allows use of the find command to find which plugin
+      contains the given command.
+    - pluginmanager.commands.download=Allows downloading of plugins directly onto
+      your server from either a Spigot URL or a direct one.
+    - pluginmanager.commands.download.direct=Allows downloading of plugins directly
+      onto your server from a direct URL.
+    - pluginmanager.commands.download.spigot=Allows downloading of plugins directly
+      onto your server from either a Spigot URL.
+    - pluginmanager.commands.gui=Allows using the GUI.
+    - pluginmanager.commands.delete=Allows deleting a plugin file from the server.
+    - pluginmanager.commands.permissions=Allows use of the permissions command to
+      list all permissions of a plugin (from their plugin.yml file).
+    - pluginmanager.commands.dump=Allows use of the dump command to export description,
+      commands and permissions of a plugin.
+  worldedit:
+    biomeinfo:
+    - worldedit.biome.info=Get the biome of the targeted block.
+    /setbiome:
+    - worldedit.biome.set=Sets the biome of the player's current block or region.
+    biomelist:
+    - worldedit.biome.list=Gets all biomes available.
+    chunkinfo:
+    - worldedit.chunkinfo=Get information about the chunk that you are inside
+    listchunks:
+    - worldedit.listchunks=List chunks that your selection includes
+    delchunks:
+    - worldedit.delchunks=Delete chunks that your selection includes
+    /cut:
+    - worldedit.clipboard.cut=Cut the selection to the clipboard
+    /paste:
+    - worldedit.clipboard.paste=Paste the clipboard's contents
+    /schematic:
+    - worldedit.schematic.formats=List available schematic formats
+    - worldedit.clipboard.load, worldedit.schematic.load=Load a schematic into your
+      clipboard
+    - worldedit.schematic.list=List available schematics
+    - worldedit.clipboard.save, worldedit.schematic.save=Save a schematic into your
+      clipboard
+    clearclipboard:
+    - worldedit.clipboard.clear=Clear your clipboard
+    /load:
+    - worldedit.clipboard.load=Load a schematic into your clipboard
+    /save:
+    - worldedit.clipboard.save=Save a schematic into your clipboard
+    /copy:
+    - worldedit.clipboard.copy=Copy the selection to the clipboard
+    /flip:
+    - worldedit.clipboard.flip=Flip the contents of the clipboard.
+    /rotate:
+    - worldedit.clipboard.rotate=Rotate the contents of the clipboard
+    we:
+    - worldedit.reload=Reload WorldEdit
+    - worldedit.help=Displays help for the given command or lists all commands.
+    /fast:
+    - worldedit.fast=Toggle fast mode
+    /gmask:
+    - worldedit.global-mask=Set the global mask
+    /limit:
+    - worldedit.limit=Modify block change limit
+    /hcyl:
+    - worldedit.generation.cylinder=Generates a hollow cylinder.
+    /cyl:
+    - worldedit.generation.cylinder=Generates a cylinder.
+    /hsphere:
+    - worldedit.generation.sphere=Generates a hollow sphere.
+    /sphere:
+    - worldedit.generation.sphere=Generates a filled sphere.
+    forestgen:
+    - worldedit.generation.forest=Generate a forest
+    pumpkins:
+    - worldedit.generation.pumpkins=Generate pumpkin patches
+    /pyramid:
+    - worldedit.generation.pyramid=Generate a filled pyramid
+    /hpyramid:
+    - worldedit.generation.pyramid=Generate a hollow pyramid
+    /generate:
+    - worldedit.generation.shape=Generates a shape according to a formula.
+    /generatebiome:
+    - worldedit.generation.shape, worldedit.biome.set=Sets biome according to a formula.
+    /undo:
+    - worldedit.history.undo=Undoes the last action
+    /redo:
+    - worldedit.history.redo=Redoes the last action (from history)
+    /clearhistory:
+    - worldedit.history.clear=Clear your history
+    unstuck:
+    - worldedit.navigation.unstuck=Escape from being stuck inside a block
+    ascend:
+    - worldedit.navigation.ascend=Go up a floor
+    descend:
+    - worldedit.navigation.descend=Go down a floor
+    ceil:
+    - worldedit.navigation.ceiling=Go to the celing
+    thru:
+    - worldedit.navigation.thru.command=Passthrough walls
+    jumpto:
+    - worldedit.navigation.jumpto.command=Teleport to a location
+    up:
+    - worldedit.navigation.up=Go upwards some distance
+    /hollow:
+    - worldedit.region.hollow=Hollows out the object contained in this selection
+    /line:
+    - worldedit.region.line=Draws a line segment between cuboid selection corners
+    /curve:
+    - worldedit.region.curve=Draws a spline through selected points
+    /overlay:
+    - worldedit.region.overlay=Set a block on top of blocks in the region
+    /center:
+    - worldedit.region.center=Set the center block(s)
+    /naturalize:
+    - worldedit.region.naturalize=3 layers of dirt on top then rock below
+    /walls:
+    - worldedit.region.walls=Build the four sides of the selection
+    /faces:
+    - worldedit.region.faces=Build the walls, ceiling, and floor of a selection
+    /smooth:
+    - worldedit.region.smooth=Smooth the elevation in the selection
+    /move:
+    - worldedit.region.move=Move the contents of the selection
+    /regen:
+    - worldedit.regen=Regenerates the contents of the selection
+    /deform:
+    - worldedit.region.deform=Deforms a selected region with an expression
+    /forest:
+    - worldedit.region.forest=Make a forest within the region
+    /replace:
+    - worldedit.region.replace=Replace all blocks in the selection with another
+    /stack:
+    - worldedit.region.stack=Repeat the contents of the selection
+    /set:
+    - worldedit.region.set=Set all the blocks inside the selection to a block
+    s:
+    - worldedit.scripting.execute=Execute last CraftScript
+    cs:
+    - worldedit.scripting.execute=Execute a CraftScript
+    /pos2:
+    - worldedit.selection.pos=Set position 2
+    /chunk:
+    - worldedit.selection.chunk=Set the selection to your current chunk.
+    /pos1:
+    - worldedit.selection.pos=Set position 1
+    /hpos1:
+    - worldedit.selection.hpos=Set position 1 to targeted block
+    /hpos2:
+    - worldedit.selection.hpos=Set position 2 to targeted block
+    /wand:
+    - worldedit.wand=Get the wand object
+    toggleeditwand:
+    - worldedit.wand.toggle=Toggle functionality of the edit wand
+    /contract:
+    - worldedit.selection.contract=Contract the selection area
+    /outset:
+    - worldedit.selection.outset=Outset the selection area
+    /inset:
+    - worldedit.selection.inset=Inset the selection area
+    /distr:
+    - worldedit.analysis.distr=Get the distribution of blocks in the selection
+    /count:
+    - worldedit.analysis.count=Counts the number of a certain type of block
+    /size:
+    - worldedit.selection.size=Get information about the selection
+    /expand:
+    - worldedit.selection.expand=Expand the selection area
+    /shift:
+    - worldedit.selection.shift=Shift the selection area
+    snapshot:
+    - worldedit.snapshots.restore=Choose a snapshot to use
+    - worldedit.snapshots.restore=Choose the snapshot based on the list id
+    - worldedit.snapshots.list=List snapshots
+    - worldedit.snapshots.restore=Choose the nearest snapshot after a date
+    - worldedit.snapshots.restore=Choose the nearest snapshot before a date
+    restore:
+    - worldedit.snapshots.restore=Restore the selection from a snapshot
+    /:
+    - worldedit.superpickaxe=Toggle the super pickaxe pickaxe function
+    superpickaxe:
+    - worldedit.superpickaxe=Enable the single block super pickaxe mode
+    - worldedit.superpickaxe.area=Enable the area super pickaxe pickaxe mode
+    - worldedit.superpickaxe.recursive=Enable the recursive super pickaxe pickaxe
+      mode
+    tool:
+    - worldedit.tool.tree=Tree generator tool
+    - worldedit.tool.replacer=Block replacer tool
+    - worldedit.tool.data-cycler=Block data cycler tool
+    - worldedit.tool.flood-fill=Flood fill tool
+    - worldedit.brush.sphere=Choose the sphere brush
+    - worldedit.brush.cylinder=Choose the cylinder brush
+    - worldedit.brush.clipboard=Choose the clipboard brush
+    - worldedit.brush.smooth=Choose the terrain softener brush
+    - worldedit.brush.ex=Shortcut fire extinguisher brush
+    - worldedit.brush.gravity=Gravity brush
+    - worldedit.brush.butcher=Butcher brush
+    - worldedit.tool.deltree=Floating tree remover tool
+    - worldedit.tool.farwand=Wand at a distance tool
+    - worldedit.tool.lrbuild=Long-range building tool
+    - worldedit.tool.info=Block information tool
+    mat:
+    - worldedit.brush.options.material=Set the brush material
+    range:
+    - worldedit.brush.options.range=Set the brush range
+    size:
+    - worldedit.brush.options.size=Set the brush size
+    mask:
+    - worldedit.brush.options.mask=Set the brush mask
+    tree:
+    - worldedit.tool.tree=Tree generator tool
+    repl:
+    - worldedit.tool.replacer=Block replacer tool
+    cycler:
+    - worldedit.tool.data-cycler=Block data cycler tool
+    floodfill:
+    - worldedit.tool.flood-fill=Flood fill tool
+    brush:
+    - worldedit.brush.sphere=Choose the sphere brush
+    - worldedit.brush.cylinder=Choose the cylinder brush
+    - worldedit.brush.clipboard=Choose the clipboard brush
+    - worldedit.brush.smooth=Choose the terrain softener brush
+    - worldedit.brush.ex=Shortcut fire extinguisher brush
+    - worldedit.brush.gravity=Gravity brush
+    - worldedit.brush.butcher=Butcher brush
+    deltree:
+    - worldedit.tool.deltree=Floating tree remover tool
+    farwand:
+    - worldedit.tool.farwand=Wand at a distance tool
+    lrbuild:
+    - worldedit.tool.lrbuild=Long-range building tool
+    info:
+    - worldedit.tool.info=Block information tool
+    /fillr:
+    - worldedit.fill.recursive=Fill a hole recursively
+    /drain:
+    - worldedit.drain=Drain a pool
+    /fixlava:
+    - worldedit.fixlava=Fix lava to be stationary
+    /fixwater:
+    - worldedit.fixwater=Fix water to be stationary
+    /removeabove:
+    - worldedit.removeabove=Remove blocks above your head.
+    /removebelow:
+    - worldedit.removebelow=Remove blocks below you.
+    /removenear:
+    - worldedit.removenear=Remove blocks near you.
+    /replacenear:
+    - worldedit.replacenear=Replace nearby blocks
+    /snow:
+    - worldedit.snow=Simulates snow
+    /thaw:
+    - worldedit.thaw=Thaws the area
+    /green:
+    - worldedit.green=Greens the area
+    /ex:
+    - worldedit.extinguish=Extinguish nearby fire
+    butcher:
+    - worldedit.butcher=Kill all or nearby mobs
+    remove:
+    - worldedit.remove=Remove all entities of a type
+    /fill:
+    - worldedit.fill=Fill a hole
+    /help:
+    - worldedit.help=Displays help for the given command or lists all commands.
+  worldguard:
+    god:
+    - worldguard.god=Be able to use /god (and /ungod).
+    - worldguard.god.other=Be able to use /god (and /ungod) on others.
+    heal:
+    - worldguard.heal=Be able to use /heal.
+    - worldguard.heal.other=Be able to use /heal on others.
+    slay:
+    - worldguard.slay=Be able to use /slay.
+    - worldguard.slay.other=Be able to use /slay on others.
+    locate:
+    - worldguard.locate=Be able to use /locate.
+    stack:
+    - worldguard.stack=Be able to use /stack.
+    - worldguard.stack.illegitimate=Be able to make stack sizes with /stack that exceed
+      normal limits (i.e. 64 buckets in one stack).
+    - worldguard.stack.damaged=Be able to /stack items that should not be stacked
+      because they use their value for storing other data.
+    stopfire:
+    - worldguard.fire-toggle.stop=Be able to use /stopfire and /allowfire.
+    allowfire:
+    - worldguard.fire-toggle.stop=Be able to use /stopfire and /allowfire.
+    stoplag:
+    - worldguard.halt-activity=Be able to use /stoplag.
+    wg:
+    - worldguard.reload=Be able to use /wg reload.
+    - worldguard.report=Be able to use /wg report.
+    - worldguard.profile=Be able to use /wg profile.
+    - worldguard.report.pastebin=Be able to have a report or profile submitted to
+      a pastebin service.
+    - worldguard.flushstates=Be able to use /wg flushstates.
+    - worldguard.running=Be able to use /wg running.
+    - worldguard.debug.event.*=Be able to use the event testing commands under /wg
+      debug. Those commands are used to simulate an action so you can trace down,
+      for example, which plugin is blocking player versus player combat. However,
+      this essentially allows a moderator to impersonate another player.
+    rg:
+    - worldguard.region.wand.*=Be able to use the Region Wand.
+    - worldguard.region.load.*=Be able to use /rg load.
+    - worldguard.region.save.*=Be able to use /rg save.
+    - worldguard.region.migratedb.*=Be able to use /rg migratedb.
+    - worldguard.region.migrateuuid.*=Be able to use /rg migrateuuid.
+    - worldguard.region.define.*=Be able to use /rg define.
+    - worldguard.region.claim.*=Be able to use /rg claim.
+    - worldguard.region.unlimited.*=Bypass claiming limits.
+    - worldguard.region.list.*=Be able to use /rg list.
+    - worldguard.region.list.own.*=Be able to use /rg list and have it show one own�s
+      regions.
+    - worldguard.region.redefine.*=Be able to use /rg redefine.
+    - worldguard.region.remove.*=Be able to use /rg remove.
+    - worldguard.region.setpriority.*=Be able to use /rg setpriority.
+    - worldguard.region.setparent.*=Be able to use /rg setparent.
+    - worldguard.region.select.*=Be able to use /rg select.
+    - worldguard.region.teleport.*=Be able to use /rg teleport.
+    - worldguard.region.addmember.*=Be able to use /rg addmember.
+    - worldguard.region.addowner.*=Be able to use /rg addowner.
+    - worldguard.region.removemember.*=Be able to use /rg removemember.
+    - worldguard.region.removeowner.*=Be able to use /rg removeowner.
